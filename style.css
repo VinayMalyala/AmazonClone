@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.2px solid transparent;
+    padding: 5px;
+}
+
+.border:hover{
+    border: 1.2px solid #ffffff;
+}
+
+.search-border{
+    border: 1.2px solid transparent;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.deliver-text{
+    color: #cccccc;
+    font-size: 0.8rem;
+    /* align-self: flex-end; */
+    margin-left: 15px;
+}
+
+.address{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    height: 40px;
+    /* background-color: orange; */
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2.3px solid orange;
+    border-radius: 6px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 0.96rem;
+    border: none;
+    padding: 5px 5px 5px 15px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #febd68; */
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-icon i{
+    color: #0f1111;
+    font-size: 1.2rem;
+}
+
+.nav-language{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.nav-language img{
+    width: 21px;
+    height: 15px;
+}
+
+.nav-language p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 0 0 4px;
+}
+
+.nav-sign-in span{
+    font-size: 0.78rem;
+}
+
+.bold-text{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-return span{
+    font-size: 0.78rem;
+}
+
+.nav-cart i{
+    font-size: 24px;
+}
+
+.nav-cart{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 10px 0 0;
+    padding: 10px;
+}
