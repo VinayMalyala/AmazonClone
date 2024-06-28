@@ -551,6 +551,133 @@ main{
     font-size: 0.8rem;
 }
 
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 15px 0;
+}
+
+.offers-card{
+    background-color: #fff;
+    height: 250px;
+    width: 94.5%;
+    padding: 15px;
+}
+
+.offers-card h1{
+    font-size: 1.3rem;
+}
+
+.offers-card p{
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 0.8rem;   
+}
+
+.offers-heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.offers-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-style-card{
+    height: 390px;
+    width: 350px;
+    background-color: #fff;
+    margin: 3px 7px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home-style-card h4{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.home-style-card > p{
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.home-appliances-card{
+    height: 390px;
+    width: 350px;
+    background-color: #fff;
+    margin: 3px 7px 15px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home-appliances-card h4{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.home-appliances-card > p{
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.potrait-card{
+    height: 390px;
+    width: 350px;
+    background-color: #fff;
+    margin: 3px 7px 15px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.potrait-card h4{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.potrait-card > p{
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.potrait-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 85%; */
+}
+
+.men-clothing-card{
+    height: 390px;
+    width: 350px;
+    background-color: #fff;
+    margin: 3px 0 15px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.men-clothing-card h4{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.men-clothing-card > p{
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
 .footer-top-panel{
     background-color: #37475a;
     color: #ffffff;
